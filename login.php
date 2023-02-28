@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>Login</title>
@@ -7,17 +7,17 @@
   </head>
   <body>
 
-    <form action="" method="post">
+    <form action="check_login.php" method="post">
       <div>
         <label for="username">Identifiant</label>
-        <input type="text" name="username">
+        <input type="text" name="username" id="username">
       </div>
       <div>
         <label for="password">Mot de passe </label>
-        <input type="password" name="password">
+        <input type="password" name="password" id="password">
       </div>
       <div>
-        <button type="button" name="button">Se connecter</button>
+        <button type="submit" name="button">Se connecter</button>
       </div>
     </form>
   </body>
